@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+main > section {
+    min-height: 100vh;
+    padding: 60px 40px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -52,7 +59,54 @@ section >img {
     border-bottom-right-radius: 20px;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(109, 130, 131);
+}
+.card{
+    border: 1px solid orange;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 5px 5px 5px orange;
+}
 
+.card >h2 {
+    font-size: 20px;
+    color: red;
+}
 
+.card > p {
+    font-size: 18px;
+    font-style: italic;
+}
+.card >ul>li {
+    font-size: 18px;
+    font-style: italic;
+}
+.card >ol>li {
+    font-size: 18px;
+    font-style: italic;
+}
 
+.card >label {
+    font-size: 18px;
+    font-style:italic;
+}
+
+#skills table {
+    width: 60%;
+    font-size: 18px;
+    color: darkblue;
+}
+
+#skills thead {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+}
 
