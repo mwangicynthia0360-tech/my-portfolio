@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dimgray;
+    color: white;
+    height: 80px;
+}
+header> h1{color: crimson;}
+nav>ul {
+    display: flex;
+    justify-content: center;
+}
+nav>ul>li {
+    margin: 10px;
+    list-style: none;
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+}
+nav>ul>li>a:hover{
+    color: crimson;
+    margin: 3px;
+}
+about {
+    text-align: center;
+}
+
+
+
+
