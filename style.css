@@ -15,11 +15,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: dimgray;
+    background-color: rgb(236, 102, 102);
     color: white;
-    height: 80px;
+    height: 100px;
 }
-header> h1{color: crimson;}
+header> h1{
+    color: black;
+}
 nav>ul {
     display: flex;
     justify-content: center;
@@ -35,11 +37,17 @@ nav>ul>li>a {
     transition: color 0.3s ease;
 }
 nav>ul>li>a:hover{
-    color: crimson;
+    color: cyan;
     margin: 3px;
 }
-about {
+#about {
     text-align: center;
+    background-color: rgb(238, 245, 245);
+}
+
+#skills {
+    text-align: center;
+
 }
 section >h2{
     color: blueviolet;
@@ -65,7 +73,7 @@ section >img {
     align-items: center;
     margin: 20px;
     text-align: center;
-    background-color: rgb(109, 130, 131);
+    background-color: rgb(165, 180, 180);
 }
 .card{
     border: 1px solid orange;
