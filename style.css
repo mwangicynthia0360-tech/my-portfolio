@@ -15,13 +15,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(236, 102, 102);
+    background-color: rgb(95, 31, 31);
     color: white;
     height: 100px;
 }
 header> h1{
     color: black;
+    font-size: 60px;
 }
+
 nav>ul {
     display: flex;
     justify-content: center;
@@ -79,13 +81,14 @@ section >img {
     border: 1px solid orange;
     margin: 10px;
     border-radius: 5px;
-    padding: 3px;
+    padding: 5px;
     box-shadow: 5px 5px 5px orange;
+    width: 1000px
 }
 
 .card >h2 {
-    font-size: 20px;
-    color: red;
+    font-size: 30px;
+    color: rgb(170, 47, 47);
 }
 
 .card > p {
@@ -100,8 +103,16 @@ section >img {
     font-size: 18px;
     font-style: italic;
 }
+.input {
+    border: 1px solid rgb(63, 191, 196);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px orange;
+    width: 250px;
+}
 
-.card >label {
+.input >label {
     font-size: 18px;
     font-style:italic;
 }
@@ -118,3 +129,15 @@ section >img {
     font-style: italic;
 }
 
+.content >button {
+    background-color: cadetblue;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact {
+    font-size: 20px;
+    font-style: italic;
+    padding: 50px;
+}
